@@ -1,0 +1,106 @@
+body{
+	background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+
+	font-family: 'Open Sans', sans-serif;
+}
+h4, .hashtag{
+	text-align: center;
+	color: pink;
+	border:none;
+}
+
+.content{
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 0 0 20px 5px rgba(255,255,255,0.2); /*horizontal position, vertical position, blur, size, color*/
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+section{
+	color: #0.5ffffff;
+}
+
+footer{
+	border-top: solid;
+	border-color: pink;
+	margin: 50px 0 0 0;
+	text-align: right;
+	background-color: rgba(255,255,255,0.3);
+	padding: 0;
+}
+
+.me{
+	border-radius: 10% 50% 10% 50%; /*TopLeft TopRight BottomRight BottomLeft*/
+	border: 1px pink solid;
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	max-width: 250px;
+}
+.me:hover{
+	display: block;
+	transform: rotatez(180deg);
+}
+
+h1{
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 10px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+}
+
+h2{
+	font-size: 2.5em;
+	color: white;
+	letter-spacing: 5px;
+	text-align: center;
+	margin: 10px;
+	padding: 20px;
+	font-family: 'Amatic SC', cursive;
+}
+
+h3{
+	text-align: left;
+	margin-bottom: 0px; 
+	border-bottom: 1px grey solid;
+}
+
+h3:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+h3 + *{
+	display: none;
+}
+
+ol, ul, li {
+	list-style: none;
+	padding: 0;
+}
+
+a{
+	color:mediumorchid;
+	text-decoration: none;
+	font-style: italic;
+}
+
+/*a:hover{
+	text-decoration: underline;
+}*/
+
+
+
+
+
+
+
+
+
+
